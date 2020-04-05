@@ -1,0 +1,49 @@
+body {
+    background: url(dddd.jpg);
+}
+
+h1 {
+    color:violet;
+    text-align: center;
+}
+
+ol{
+    color: red;
+
+}
+table{
+    border: 10px solid blue;
+
+}
+tr:hover {background-color: #f5f5f5;
+
+
+}
+
+td{
+    border: 1px solid red;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: crimson;
+}
+li{
+    color: crimson;
+}
+b{
+    color: red;
+}
+label{
+    color: yellow;
+}
+dl{
+    color: greenyellow;
+}
+dd{
+    color: green;
+}
+dt{
+    color: aqua;
+}
