@@ -1,0 +1,91 @@
+<?php
+
+
+
+
+$ondřejŠplíchal1=1;
+$ondřejŠplíchal2=5;
+if ($ondřejŠplíchal1 < $ondřejŠplíchal2) {
+    echo "Ondřej Šplíchal";
+}
+echo "<br>";
+if ($ondřejŠplíchal1 > "$ondřejŠplíchal2") {
+    echo "Ondřej";
+} else  {
+    echo "Šplíchal";
+}
+echo"<br>";
+if ($ondřejŠplíchal1 < 1) {
+
+    if ($ondřejŠplíchal2 < 6) {
+        echo "Ondřej";
+    }
+} else {
+    echo "Šplíchal";
+}
+echo"<br>";
+switch ($ondřejŠplíchal1) {
+    case 1:
+        echo "1";
+        break;
+    case 2:
+        echo "2";
+        break;
+    case 3:
+        echo "3";
+        break;
+    case 4:
+        echo "4";
+        break;
+    case 5:
+        echo "5";
+        break;
+    case 6:
+        echo "6";
+        break;
+    default:
+        echo "Nic";
+}
+echo"<br>";
+$zelenina = array(1=>"meloun","okurka","rajče","ředkev","dýňe","batát","celer","kyseláokurka","brambora","mrkev");
+var_dump($zelenina);
+echo "<br>";
+$auto["auta"]["htp"] ["benzin"] ["sportovni"]["8 válec"] = "BMV";
+$auto["auta"]["htp"] ["nafta"] ["na cesty"] ["5 válec"] = "Volvo";
+$auto["kamiony"]["tdi"] ["nafat"] ["přeprava zboží"]["10 válec"] = "Man";
+$auto["kamiony"]["htp"] ["nafta"] ["přeprava zboží"]["12 válec"] = "Renault";
+$auto["auta"]["tdi"] ["benzin"] ["osobní"] ["9 válec"]= "Škoda";
+var_dump($auto);
+echo "<br><br>";
+
+$radaOndřejšplíchal=4;
+$sloupecOndřejšplíchal=18;
+echo "<table border=1>";
+for($i=1;$i<=$radaOndřejšplíchal;$i++) {
+    echo "<tr>";
+    for($x=1;$x<=$sloupecOndřejšplíchal;$x++){
+        echo "<td>".$i."-".$x."</td>";
+    }
+    echo "</tr>";
+}
+echo "</table><br>";
+
+echo abs(396)."<br>";
+echo cos(27)."<br>";
+$string="Mika mikuje v Mikulově";
+echo strstr($string, "Mika")."<br>";
+echo strpos($string, "je")."<br>";
+echo sizeof($auto);
+array_splice($auto, 0, 1, "Škoda rapid");
+var_dump($auto);
+
+$i=1;
+foreach ($auto as $zelenina){
+    echo $i."-".$auto."<br>";
+    $i++;
+}
+$jmena = "Alena, Petra,Jarmila;Hana Dominika-Tomaz Leona";
+
+
+
+var_dump($jmena);
